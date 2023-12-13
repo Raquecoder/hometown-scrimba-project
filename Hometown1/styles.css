@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1D3557;
+    text-transform: capitalize;
+    width: 720px;
+    height: 1115px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    width: 100px;
+}
+
+/*Hero Section*/
+.hero-section{
+    background-color: #FFFFFF;
+    background-image: url('images/torshov.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 343px; 
+}
+
+h1{
+    font-size: 32px;
+    line-height: 37px;
+    width: 225px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #1D3557;
+}
+
+h2{
+    font-size: 19px;
+    line-height: 22px;
+    width: 412px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #457B9D;
+}
+
+h1,h2{
+    color:#FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin: 20px auto;
+}
+
+/*Activities Section*/
+.activities-section{
+    background-color:#F1FAEE;
+    color: #1D3557;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.container-teather,
+.container-park,
+.container-storage{
+    width: 198px;
+    height: 226px;
+}
+
+h3{
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 28px;
+   letter-spacing: 0em;
+   margin: 30px 0;
+}
+
+h4{
+    margin: 15px 0;
+}
+
+.activities-section-images{
+    border-radius: 50%;
+}
+
+/*Guide-Section*/
+.guide-section{
+    background-color: #FFFFFF;
+    width: 720px;
+    height: 394px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    background-color: #a8dadc;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+    width: 400px;
+    height: 294px;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+.container-avatar{
+    width: 50%;
+}
+.avatar{
+    border-radius: 10px;
+    width: 180px;
+    height: 248.67px;
+}
+.container-text{
+    width: 50%;
+}
